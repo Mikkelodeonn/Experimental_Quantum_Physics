@@ -32,8 +32,8 @@ for i in range(7):
     ax[i].legend(loc="upper right", fontsize=15)
     ax[i].grid(alpha=0.5)
 
-ax[3].set_ylabel("coincidence rates [arb. u.]", labelpad=20, fontsize=20)
-ax[6].set_xlabel("stage position [μm]", fontsize=20) 
+fig.supylabel("coincidence rates [arb. u.]", fontsize=20)
+fig.supxlabel("stage position [μm]", fontsize=20)
 
 plt.show()
 
