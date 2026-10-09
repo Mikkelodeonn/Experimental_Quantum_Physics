@@ -35,5 +35,7 @@ for i in range(7):
 fig.supylabel("coincidence rates [arb. u.]", fontsize=20)
 fig.supxlabel("stage position [μm]", fontsize=20)
 
+# noget nyt
+
 plt.show()
 
